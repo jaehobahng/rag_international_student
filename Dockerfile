@@ -17,4 +17,11 @@ COPY . /app
 
 # Default command
 # CMD ["python", "test.py"]
-CMD ["sh", "-c", "python test.py && tail -f /dev/null"]
+# CMD ["sh", "-c", "python test.py && tail -f /dev/null"]
+
+
+# # Expose port 8000
+# EXPOSE 8000
+
+# # Change the default command to run serve.py and then rag_app.py
+# CMD ["sh", "-c", "python src/serve.py && python src/raggpt_app.py"]

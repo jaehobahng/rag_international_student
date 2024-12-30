@@ -71,6 +71,6 @@ class MultiDirectoryHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    with socketserver.TCPServer(("", PORT), MultiDirectoryHTTPRequestHandler) as httpd:
+    with socketserver.TCPServer(("", PORT), SingleDirectoryHTTPRequestHandler) as httpd:
         print(f"Serving at port {PORT}")
         httpd.serve_forever()
