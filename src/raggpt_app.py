@@ -20,7 +20,7 @@ with gr.Blocks() as demo:
                         bubble_full_width=False,
                         height=500,
                         avatar_images=(
-                            ("images/AI_RT.png"), "images/openai_.png"),
+                            ("images/thinking.png"), "images/openai_.png"),
                     )
                     chatbot.like(UISettings.feedback, None, None)
             ##############
@@ -53,7 +53,7 @@ with gr.Blocks() as demo:
                 temperature_bar = gr.Slider(minimum=0, maximum=1, value=0, step=0.1,
                                             label="Temperature", info="Choose between 0 and 1")
                 rag_with_dropdown = gr.Dropdown(
-                    label="RAG with", choices=["Preprocessed doc", "Upload doc: Process for RAG", "Upload doc: Give Full summary"], value="Preprocessed doc")
+                    label="RAG with", choices=["Preprocessed doc", "Upload doc: Process for RAG"], value="Preprocessed doc")
                 clear_button = gr.ClearButton([input_txt, chatbot])
 
             ##############

@@ -30,3 +30,8 @@ We are continuously improving the system by adding more documents. Here's a docu
 - [USCIS Policy Manual - Volume 2, Part F](https://www.uscis.gov/policy-manual/volume-2-part-f)
 
 Stay tuned for updates as we expand the scope of this tool.
+
+
+## References
+Code learned form [link](https://www.youtube.com/watch?v=1FERFfut4Uw)
+Youtube Channel (Farzad Roozitalab (AI RoundTable))
